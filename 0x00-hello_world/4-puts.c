@@ -1,9 +1,11 @@
 #include <stdio.h>
-/* Declaration and desription of main() function
- * puts() will print out the specified string
+/**
+ * main - Main function entry point
+ * Description: prints "\"Programming is like building a multilingual puzzle"
+ * Return: 0
  */
 int main(void)
 {
-	puts("Programming is like building a multilingual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
