@@ -10,8 +10,8 @@ int main(void)
 {
 	int charsize = sizeof(char);
 	int intsize = sizeof(int);
-	int longintsize = sizeof(long);
-	int longlongintsize = sizeof(long long);
+	int longintsize = sizeof(long int);
+	int longlongintsize = sizeof(long long int);
 	int floatsize = sizeof(float);
 
 	printf("Size of a char: %d byte(s)\n", charsize);
