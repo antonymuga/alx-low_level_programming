@@ -19,6 +19,6 @@ int main(void)
 			sum += test_num;
 		}
 	}
-	printf("%d", sum);
+	printf("%d\n", sum);
 	return (0);
 }
