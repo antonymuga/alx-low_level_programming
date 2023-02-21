@@ -3,36 +3,45 @@
 
 /**
  * print_to_98 - function declaration
- * Description: print numbers to 98
- * @n: starting number
+ * Description: print all numbers to 98
+ * @n: starting point
  * Return: void
  */
 
 void print_to_98(int n);
 
 /**
- * print_to_98 - function definition
- * Description: print all numbers to 98
- * @n: the start point
+ * print_to_98 - function definitions
+ * Description: print numbers to 98
+ * @n: number to start with
  * Return: void
  */
 
 void print_to_98(int n)
 {
+	int start;
+
 	if (n > 98)
 	{
-		while (n > 98)
+		for (start = n; start >= 98; start--)
 		{
-			printf("%d, ", n);
-			n--;
+			printf("%d", start);
+			if (start != 98)
+			{
+				printf(", ");
+			}
 		}
 	}
-	else if (n < 98)
+	else
 	{
-		while (n < 98)
+		for (start = n; start <= 98; start++)
 		{
-			printf("%d, ", n);
+			printf("%d", start);
+			if (start != 98)
+			{
+				printf(", ");
+			}
 		}
 	}
-	printf("98\n");
+	printf("\n");
 }
