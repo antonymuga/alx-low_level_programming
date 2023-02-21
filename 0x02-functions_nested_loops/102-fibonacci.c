@@ -32,5 +32,6 @@ int main(void)
 
 		++counter;
 	}
+	printf("\n");
 	return (0);
 }
