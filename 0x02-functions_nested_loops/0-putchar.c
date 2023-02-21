@@ -40,4 +40,5 @@ char print_char(void)
 		putchar(letter);
 		index++;
 	}
+	return (0);
 }
