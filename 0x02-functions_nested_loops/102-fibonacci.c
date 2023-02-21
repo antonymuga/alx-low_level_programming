@@ -17,11 +17,11 @@ int main(void)
 	{
 		if (counter == 0)
 		{
-			printf("%ld\n", num1);
+			printf("%ld", num1);
 		}
 		else if (counter == 1)
 		{
-			printf(", %ld\n", num2);
+			printf(", %ld", num2);
 		}
 		else
 		{
