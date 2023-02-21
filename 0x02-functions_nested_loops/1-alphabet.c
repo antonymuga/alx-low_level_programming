@@ -11,18 +11,6 @@
 void print_alphabet(void);
 
 /**
- * main - entry point
- * Description: calls print_alphabet
- * Return: 0, success
- */
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-
-/**
  * print_alphabet - prints the alphabet
  * Description: prints the alphabet in lowercase
  * Return: has no return value
@@ -34,9 +22,9 @@ void print_alphabet(void)
 
 	while (letter <= 'z')
 	{
-		putchar(letter);
+		_putchar(letter);
 		letter++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
 
