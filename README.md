@@ -8,3 +8,4 @@
 | [`0x05-pointers_arrays_strings`](https://github.com/antonymuga/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings) | Pointers, Arrays & Strings Part 1 in **C** |
 | [`0x06-pointers_arrays_strings`](https://github.com/antonymuga/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings) | Pointers, Arrays & Strings Part 2 in **C** |
 | [`0x07-pointers_arrays_strings`](https://github.com/antonymuga/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings) | Pointers, Arrays & Strings Part 3 in **C** |
+| [`0x08-recursion`](https://github.com/antonymuga/alx-low_level_programming/tree/master/0x08-recursion) | Recursion in **C** |
