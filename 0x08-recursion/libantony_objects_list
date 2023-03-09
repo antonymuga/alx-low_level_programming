@@ -1,0 +1,15 @@
+0-main.o
+0-puts_recursion.o
+1-main.o
+1-print_rev_recursion.o
+2-main.o
+2-strlen_recursion.o
+3-factorial.o
+3-main.o
+4-main.o
+4-pow_recursion.o
+5-main.o
+5-sqrt_recursion.o
+6-is_prime_number.o
+6-main.o
+_putchar.o

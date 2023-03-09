@@ -1,0 +1,72 @@
+
+0-main.o:
+                 U _GLOBAL_OFFSET_TABLE_
+0000000000000000 T main
+                 U _puts_recursion
+
+0-puts_recursion.o:
+                 U _GLOBAL_OFFSET_TABLE_
+                 U _putchar
+0000000000000000 T _puts_recursion
+
+1-main.o:
+                 U _GLOBAL_OFFSET_TABLE_
+0000000000000000 T main
+                 U _print_rev_recursion
+
+1-print_rev_recursion.o:
+                 U _GLOBAL_OFFSET_TABLE_
+0000000000000000 T _print_rev_recursion
+                 U _putchar
+
+2-main.o:
+                 U _GLOBAL_OFFSET_TABLE_
+0000000000000000 T main
+                 U printf
+                 U _strlen_recursion
+
+2-strlen_recursion.o:
+0000000000000000 T _strlen_recursion
+
+3-factorial.o:
+0000000000000000 T factorial
+
+3-main.o:
+                 U factorial
+                 U _GLOBAL_OFFSET_TABLE_
+0000000000000000 T main
+                 U printf
+
+4-main.o:
+                 U _GLOBAL_OFFSET_TABLE_
+0000000000000000 T main
+                 U _pow_recursion
+                 U printf
+
+4-pow_recursion.o:
+0000000000000000 T _pow_recursion
+
+5-main.o:
+                 U _GLOBAL_OFFSET_TABLE_
+0000000000000000 T main
+                 U printf
+                 U _sqrt_recursion
+
+5-sqrt_recursion.o:
+0000000000000000 T my_sqrt
+000000000000004e T _sqrt_recursion
+
+6-is_prime_number.o:
+0000000000000000 T divisible
+0000000000000052 T is_prime_number
+
+6-main.o:
+                 U _GLOBAL_OFFSET_TABLE_
+                 U is_prime_number
+0000000000000000 T main
+                 U printf
+
+_putchar.o:
+                 U _GLOBAL_OFFSET_TABLE_
+0000000000000000 T _putchar
+                 U write
