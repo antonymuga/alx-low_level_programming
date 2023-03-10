@@ -9,3 +9,5 @@
 | [`0x06-pointers_arrays_strings`](https://github.com/antonymuga/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings) | Pointers, Arrays & Strings Part 2 in **C** |
 | [`0x07-pointers_arrays_strings`](https://github.com/antonymuga/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings) | Pointers, Arrays & Strings Part 3 in **C** |
 | [`0x08-recursion`](https://github.com/antonymuga/alx-low_level_programming/tree/master/0x08-recursion) | Recursion in **C** |
+| [`0x09-static_libraries`](https://github.com/antonymuga/alx-low_level_programming/tree/master/0x09-static_libraries) | Static libraries in **C** |
+| [`0x0A-argc_argv`](https://github.com/antonymuga/alx-low_level_programming/tree/master/0x0A-argc_argv) | Command line arguements argc and argv in **C** |
