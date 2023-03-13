@@ -1,12 +1,11 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
 
 /**
  * str_concat - function declaration
  * @s1: string 1
  * @s2: string 2
- * Return: returns concated string
+ * Return: as string value
  */
 
 char *str_concat(char *s1, char *s2);
@@ -15,45 +14,36 @@ char *str_concat(char *s1, char *s2);
  * str_concat - function definition
  * @s1: the first string
  * @s2: the second string
- * Description: concatenates string 1 and 2
+ * Description: concatenates s1 and s2
  * Return: the concatenated string
  */
 
 char *str_concat(char *s1, char *s2)
 {
-	int index, len1, len2;
-	char *conc;
+	char *new_string;
+	int index;
+	int concat_index = 0;
+	int len = 0;
 
-	index = 0;
-	len1 = 0;
-	len2 = 0;
 	if (s1 == NULL)
 		s1 = "";
-	else if (s2 == NULL)
+
+	if (s2 == NULL)
 		s2 = "";
 
-	while (s1[index] != '\0')
-	{
-		index++;
-		len1++;
-	}
+	for (index = 0; s1[index] || s2[index]; index++)
+		len++;
 
-	index = 0;
+	new_string  = malloc(sizeof(char) * len);
 
-	while (s2[index] != '\0')
-	{
-		index++;
-		len2++;
-	}
-
-	conc = malloc(sizeof(char) * (len1 + len2 + 1));
-	if (conc == NULL)
+	if (new_string == NULL)
 		return (NULL);
 
-	for (index = 0; index < len1; index++)
-		conc[index] = s1[index];
-	for (index = 0; index < len2; index++)
-		conc[index + len1] = s2[index];
-	conc[index + len1] = '\0';
-	return (conc);
+	for (index = 0; s1[index]; index++)
+		new_string[concat_index++] = s1[index];
+
+	for (index = 0; s2[index]; index++)
+		new_string[concat_index++] = s2[index];
+
+	return (new_string);
 }
