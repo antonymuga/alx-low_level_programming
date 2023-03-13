@@ -11,3 +11,4 @@
 | [`0x08-recursion`](https://github.com/antonymuga/alx-low_level_programming/tree/master/0x08-recursion) | Recursion in **C** |
 | [`0x09-static_libraries`](https://github.com/antonymuga/alx-low_level_programming/tree/master/0x09-static_libraries) | Static libraries in **C** |
 | [`0x0A-argc_argv`](https://github.com/antonymuga/alx-low_level_programming/tree/master/0x0A-argc_argv) | Command line arguements argc and argv in **C** |
+| [`0x0B-malloc_free`](https://github.com/antonymuga/alx-low_level_programming/tree/master/0x0B-malloc_free) | Malloc() for memory allocation in **C** |
