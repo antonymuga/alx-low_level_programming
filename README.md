@@ -15,3 +15,6 @@
 | [`0x0A-argc_argv`](https://github.com/antonymuga/alx-low_level_programming/tree/master/0x0A-argc_argv) | Command line arguements argc and argv in **C** |
 | [`0x0B-malloc_free`](https://github.com/antonymuga/alx-low_level_programming/tree/master/0x0B-malloc_free) | Malloc() for memory allocation in **C** |
 [`0x0C-more_malloc_free`](https://github.com/antonymuga/alx-low_level_programming/tree/master/0x0C-more_malloc_free) | Calloc() for memory allocation in **C** |
+[`0x0D-preprocessor`](https://github.com/antonymuga/alx-low_level_programming/tree/master/0x0D-preprocessor) | Preprocessor directives in  **C** |
+[`0x0E-structures_typedef`](https://github.com/antonymuga/alx-low_level_programming/tree/master/0x0E-structures_typedef) | Structs in  **C** |
+
