@@ -18,4 +18,5 @@
 [`0x0D-preprocessor`](https://github.com/antonymuga/alx-low_level_programming/tree/master/0x0D-preprocessor) | Preprocessor directives in  **C** |
 [`0x0E-structures_typedef`](https://github.com/antonymuga/alx-low_level_programming/tree/master/0x0E-structures_typedef) | Structs in  **C** |
 [`0x0F-function_pointers`](https://github.com/antonymuga/alx-low_level_programming/tree/master/0x0F-function_pointers) | Function pointers in **C** |
+[`0x10-variadic_functions`](https://github.com/antonymuga/alx-low_level_programming/tree/master/0x10-variadic_functions) | Variadic functions in **C** |
 
