@@ -12,7 +12,9 @@ unsigned int binary_to_uint(const char *b)
 	int length, base2;
 
 	if (!b)
+	{
 		return (0);
+	}
 
 	unsigned_integer = 0;
 
