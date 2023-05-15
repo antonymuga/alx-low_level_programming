@@ -59,7 +59,7 @@ void close_file(int fd)
  */
 int main(int argc, char *argv[])
 {
-        int source, destination, already_read, already_written;
+        int source, destination, r, w;
         char *buffer;
 
         if (argc != 3)
@@ -70,11 +70,11 @@ int main(int argc, char *argv[])
 
         buffer = create_buffer(argv[2]);
         source = open(argv[1], O_RDONLY);
-        already_read = read(source, buffer, 1024);
+        r = read(source, buffer, 1024);
         destination = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 
         do {
-                if (source == -1 || already_read == -1)
+                if (source == -1 || r == -1)
                 {
                         dprintf(STDERR_FILENO,
                                 "Error: Can't read source file %s\n", argv[1]);
@@ -82,8 +82,8 @@ int main(int argc, char *argv[])
                         exit(98);
                 }
 
-                already_written = write(destination, buffer, already_read);
-                if (destination == -1 || already_written == -1)
+                w = write(destination, buffer, r);
+                if (destination == -1 || w == -1)
                 {
                         dprintf(STDERR_FILENO,
                                 "Error: Can't write destination %s\n", argv[2]);
@@ -91,10 +91,10 @@ int main(int argc, char *argv[])
                         exit(99);
                 }
 
-                already_read = read(source, buffer, 1024);
+                r = read(source, buffer, 1024);
                 destination = open(argv[2], O_WRONLY | O_APPEND);
 
-        } while (already_read > 0);
+        } while (r > 0);
 
         free(buffer);
         close_file(source);
