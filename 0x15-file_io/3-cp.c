@@ -7,7 +7,7 @@
  * Return: status code
  */
 
-int main(int ac, char **av)
+int cp(int ac, char **av)
 {
         int fd_src;
         int fd_dest; 
